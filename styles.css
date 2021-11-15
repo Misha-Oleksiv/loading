@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 100px auto;
+	position: relative;
+	width: 600px;
+	height: 500px;
+	background-image: url('./iphone/pngfind.com-mobile-in-hand-png-995587.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.iphone {
+	position: absolute;
+	top: 62px;
+	left: 172px;
+	width: 169.5px;
+	height: 301px;
+	background-color: green;
+	;
+}
+
+.loading {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #000;
+}
+
+.minute-number {
+	position: absolute;
+	top: 47px;
+	left: 66px;
+	font-weight: bold;
+	font-size: 80px;
+	color: aliceblue;
+}
+
+.minutes {
+	position: absolute;
+	top: 135px;
+	left: 45px;
+	font-weight: bold;
+	font-size: 25px;
+	color: aliceblue;
+}
